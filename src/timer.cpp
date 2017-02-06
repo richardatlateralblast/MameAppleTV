@@ -103,7 +103,7 @@ INLINE void timer_adjust(timer_entry *timer, timer_tm time, timer_tm period)
 	if (period == TIME_NOW)
 		newicount = 0;
 	else
-	    newicount = CYCLES_CALC(timer->expire - time,activecpu->sec_to_cycles)+1;
+	    newicount = (int)CYCLES_CALC(timer->expire - time,activecpu->sec_to_cycles)+1;
 
 	/* determine if we're scheduled to run more cycles */
 	diff = *activecpu->icount - newicount;

@@ -217,7 +217,7 @@ int VerifyRomSet (int game, verify_printf_proc verify_printf)
 		switch (aud->status)
 		{
 			case AUD_ROM_NOT_FOUND:
-				verify_printf ("%-8s: %-12s %7d bytes %08x NOT FOUND\n",
+                verify_printf ("%-8s: %-12s %7d bytes %08x NOT FOUND\n",
 					drivers[game]->name, aud->rom, aud->explength, aud->expchecksum);
 				break;
 			case AUD_NOT_AVAILABLE:

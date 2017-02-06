@@ -1268,7 +1268,7 @@ static int artwork_read_bitmap(const char *file_name, struct osd_bitmap **bitmap
 
 	/* check for .png */
 	strcpy(file_name2, file_name);
-	file_name_len = strlen(file_name2);
+	file_name_len = (int)strlen(file_name2);
 	if ((file_name_len < 4) || strcasecmp(&file_name2[file_name_len - 4], ".png"))
 	{
 		strcat(file_name2, ".png");

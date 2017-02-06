@@ -11,8 +11,6 @@
 		0A48C5941BB687770004FCB3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A48C5931BB687770004FCB3 /* GameViewController.swift */; };
 		0A48C5971BB687770004FCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A48C5951BB687770004FCB3 /* Main.storyboard */; };
 		0A48C5991BB687770004FCB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A48C5981BB687770004FCB3 /* Assets.xcassets */; };
-		0A7343EF1BED8A8800814197 /* dkong.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0A7343ED1BED8A8800814197 /* dkong.zip */; };
-		0A7343F01BED8A8800814197 /* galaga.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0A7343EE1BED8A8800814197 /* galaga.zip */; };
 		0AACBC9D1BB8D14B007C0EBF /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AACBC9C1BB8D14B007C0EBF /* GameController.framework */; };
 		0AACBC9F1BB8D164007C0EBF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AACBC9E1BB8D164007C0EBF /* AudioToolbox.framework */; };
 		0AACBCA11BB8D171007C0EBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AACBCA01BB8D171007C0EBF /* Foundation.framework */; };
@@ -42,12 +40,6 @@
 		0AACBCBA1BB8D98B007C0EBF /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E13888E13F5933C005CF68A /* icon-72.png */; };
 		0AACBCBB1BB8D98B007C0EBF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E13888F13F5933C005CF68A /* icon.png */; };
 		0AACBCBC1BB8D98B007C0EBF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E13889013F5933C005CF68A /* icon@2x.png */; };
-		0ACF75471BEEC7AE0037BA71 /* 1942.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF75411BEEC7AE0037BA71 /* 1942.zip */; };
-		0ACF75481BEEC7AE0037BA71 /* dkong.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF75421BEEC7AE0037BA71 /* dkong.zip */; };
-		0ACF75491BEEC7AE0037BA71 /* galaga.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF75431BEEC7AE0037BA71 /* galaga.zip */; };
-		0ACF754A1BEEC7AE0037BA71 /* pacman.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF75441BEEC7AE0037BA71 /* pacman.zip */; };
-		0ACF754B1BEEC7AE0037BA71 /* raiden.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF75451BEEC7AE0037BA71 /* raiden.zip */; };
-		0ACF754C1BEEC7AE0037BA71 /* timeplt.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0ACF75461BEEC7AE0037BA71 /* timeplt.zip */; };
 		0AF567211BB75B7F002FA553 /* artwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 638F63FC12CCFDE500DF79C0 /* artwork.cpp */; };
 		0AF567221BB75B7F002FA553 /* audit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 638F63FE12CCFDE500DF79C0 /* audit.cpp */; };
 		0AF567231BB75B7F002FA553 /* cheat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 638F640012CCFDE500DF79C0 /* cheat.cpp */; };
@@ -633,17 +625,9 @@
 		0A48C5A51BB687770004FCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A48C5AE1BB687770004FCB3 /* iMame4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iMame4UITests.swift; sourceTree = "<group>"; };
 		0A48C5B01BB687770004FCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A7343ED1BED8A8800814197 /* dkong.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = dkong.zip; path = res/roms/dkong.zip; sourceTree = "<group>"; };
-		0A7343EE1BED8A8800814197 /* galaga.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = galaga.zip; path = res/roms/galaga.zip; sourceTree = "<group>"; };
 		0AACBC9C1BB8D14B007C0EBF /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		0AACBC9E1BB8D164007C0EBF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
 		0AACBCA01BB8D171007C0EBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0ACF75411BEEC7AE0037BA71 /* 1942.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = 1942.zip; path = res/roms/1942.zip; sourceTree = "<group>"; };
-		0ACF75421BEEC7AE0037BA71 /* dkong.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = dkong.zip; path = res/roms/dkong.zip; sourceTree = "<group>"; };
-		0ACF75431BEEC7AE0037BA71 /* galaga.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = galaga.zip; path = res/roms/galaga.zip; sourceTree = "<group>"; };
-		0ACF75441BEEC7AE0037BA71 /* pacman.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = pacman.zip; path = res/roms/pacman.zip; sourceTree = "<group>"; };
-		0ACF75451BEEC7AE0037BA71 /* raiden.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = raiden.zip; path = res/roms/raiden.zip; sourceTree = "<group>"; };
-		0ACF75461BEEC7AE0037BA71 /* timeplt.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = timeplt.zip; path = res/roms/timeplt.zip; sourceTree = "<group>"; };
 		0AF569651BB75D7D002FA553 /* tvOSBootstrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tvOSBootstrapper.h; sourceTree = "<group>"; };
 		0AF569661BB75D7D002FA553 /* tvOSBootstrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tvOSBootstrapper.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1602,14 +1586,6 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0ACF75411BEEC7AE0037BA71 /* 1942.zip */,
-				0ACF75421BEEC7AE0037BA71 /* dkong.zip */,
-				0ACF75431BEEC7AE0037BA71 /* galaga.zip */,
-				0ACF75441BEEC7AE0037BA71 /* pacman.zip */,
-				0ACF75451BEEC7AE0037BA71 /* raiden.zip */,
-				0ACF75461BEEC7AE0037BA71 /* timeplt.zip */,
-				0A7343ED1BED8A8800814197 /* dkong.zip */,
-				0A7343EE1BED8A8800814197 /* galaga.zip */,
 				215F66A6184BC4240053E5A0 /* cheat.dat */,
 				215F66A7184BC4240053E5A0 /* clrmame.dat */,
 				215F66A8184BC4240053E5A0 /* gamelist.txt */,
@@ -2839,10 +2815,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0830;
 				TargetAttributes = {
 					0A48C58C1BB687770004FCB3 = {
 						CreatedOnToolsVersion = 7.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -2871,17 +2848,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A7343EF1BED8A8800814197 /* dkong.zip in Resources */,
 				0AACBCA31BB8D98B007C0EBF /* cheat.dat in Resources */,
 				0AACBCA41BB8D98B007C0EBF /* clrmame.dat in Resources */,
 				0AACBCA51BB8D98B007C0EBF /* gamelist.txt in Resources */,
 				0AACBCA61BB8D98B007C0EBF /* hiscore.dat in Resources */,
 				0AACBCA71BB8D98B007C0EBF /* nvram in Resources */,
-				0ACF754A1BEEC7AE0037BA71 /* pacman.zip in Resources */,
-				0ACF75491BEEC7AE0037BA71 /* galaga.zip in Resources */,
 				0AACBCA81BB8D98B007C0EBF /* skins in Resources */,
-				0A7343F01BED8A8800814197 /* galaga.zip in Resources */,
-				0ACF754B1BEEC7AE0037BA71 /* raiden.zip in Resources */,
 				0AACBCA91BB8D98B007C0EBF /* artwork in Resources */,
 				0AACBCAA1BB8D98B007C0EBF /* samples in Resources */,
 				0AACBCAB1BB8D98B007C0EBF /* SKIN_2 in Resources */,
@@ -2896,12 +2868,9 @@
 				0AACBCB41BB8D98B007C0EBF /* crt-1.png in Resources */,
 				0AACBCB51BB8D98B007C0EBF /* crt-2.png in Resources */,
 				0AACBCB61BB8D98B007C0EBF /* Default-Landscape.png in Resources */,
-				0ACF75481BEEC7AE0037BA71 /* dkong.zip in Resources */,
-				0ACF754C1BEEC7AE0037BA71 /* timeplt.zip in Resources */,
 				0AACBCB71BB8D98B007C0EBF /* Default-Portrait.png in Resources */,
 				0AACBCB81BB8D98B007C0EBF /* Default.png in Resources */,
 				0AACBCB91BB8D98B007C0EBF /* Default@2x.png in Resources */,
-				0ACF75471BEEC7AE0037BA71 /* 1942.zip in Resources */,
 				0AACBCBA1BB8D98B007C0EBF /* icon-72.png in Resources */,
 				0AACBCBB1BB8D98B007C0EBF /* icon.png in Resources */,
 				0AACBCBC1BB8D98B007C0EBF /* icon@2x.png in Resources */,
@@ -3511,6 +3480,7 @@
 		0A48C5B21BB687770004FCB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -3519,7 +3489,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = NO;
@@ -3679,6 +3648,7 @@
 				PROVISIONING_PROFILE = "";
 				SDKROOT = appletvos;
 				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = dynamic;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				USER_HEADER_SEARCH_PATHS = "src src/iOS src/zlib src/sound";
@@ -3689,6 +3659,7 @@
 		0A48C5B31BB687770004FCB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -3707,7 +3678,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
@@ -3739,6 +3709,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ksmith.iMame4tvOS;
 				PRODUCT_NAME = "tvOS Mame";
 				SDKROOT = appletvos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VALIDATE_PRODUCT = YES;
@@ -3749,13 +3720,31 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "iMame4all-info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
@@ -3765,16 +3754,34 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "iMame4all-info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
