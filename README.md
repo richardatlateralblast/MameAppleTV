@@ -3,9 +3,7 @@
 MameAppleTV
 ===========
 
-This is a copy of: https://github.com/kevsmithpublic/MameAppleTV
-
-The tvOS app is based on Les Bird's code: http://www.lesbird.com/iMame4All/iMame4All_Xcode.html
+This is a copy of: https://github.com/kevsmithpublic/MameAppleTV which is based on Les Bird's code: http://www.lesbird.com/iMame4All/iMame4All_Xcode.html
 
 The original work is based on iMAME4all which is a iOS universal app, port of MAME 0.37b5 emulator by Nicola Salmoria for all iOS devices (iPad HD, iPhone 4G , iPod touch and older) based on GP2X, WIZ MAME4ALL 2.5 by Franxis. 
 
